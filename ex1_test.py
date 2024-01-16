@@ -19,7 +19,7 @@ def test_output_has_correct_length():
     assert len(name_point.hi_my_name_is()) == 5
 
 def test_output_starts_with_specific_letter():
-    assert name_point.hi_my_name_is().startswith("S")
+    assert name_point.hi_my_name_is().startswith("K")
 
 def test_output_ends_with_specific_letter():
     assert name_point.hi_my_name_is().endswith("J")
